@@ -7,6 +7,13 @@ main {
   display: grid;
   flex: 1 0 0px;
   grid-template-columns: 50px 1fr;
+  height: 100vh;
+  overflow-y: scroll;
+  margin: 4px;
+}
+
+::-webkit-scrollbar{
+  display:none;
 }
 
 #application {
